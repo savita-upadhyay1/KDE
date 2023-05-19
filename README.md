@@ -1,2 +1,5 @@
 # KDE
-Hazard function estimation for censored data using smoothed kernel density function
+#Non-parametric estimation of hazard function with covariates and censoring
+
+
+In this paper, we explore the behavior of the kernel density estimator proposed by Zhao et al.[2022]in the paper [ZML22], for estimation of hazard function for censored-survival data with covariates. The kernel density estimator used in this paper is based on the conditional survival model and has two bandwidths, one in the direction of covariates and the other in the direction of event time. We will also discuss the selection of bandwidths which influence the smoothing of the density estimates. We then compare the cumulative hazard from the kernel density estimator with the Nelson-Aalen estimator. We study the two methods on simulated data with one covariate and random uniform censoring. The event time is simulated based on the covariate. We simulated event time from three commonly used distributions exponential, log-normal and Weibull. The study shows that the kernel density estimator very closely approximates the hazard and cumulative hazard curve whereas the Nelson-Aalen estimator performs poorly as it is based solely on event time.
